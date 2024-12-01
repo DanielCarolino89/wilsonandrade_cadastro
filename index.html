@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CADASTRO WILSON ANDRADE JIU-JITSU</title>
+</head>
+
+<body>
+    <form action="" method="post">
+
+        <div class="container-cabecalho">
+
+            <div class="foto-cabecalho" id="foto-cabecalho">
+                <a href="#" class="link-foto" onclick="document.getElementById('foto').click()">Enviar Foto</a>
+                <input type="file" id="foto" name="foto" accept="image/*">
+            </div>
+            <div>
+                <div class="f1">FICHA DE MATRÍCULA</div>
+                <div class="f2">JIU-JITSU</div>
+            </div>
+
+            <div><img class="img-cabecalho" src="img/wilsonandrade.png" alt=""></div>
+        </div>
+
+        <div class="container-form">
+            <div class="titulo">DADOS PESSOAIS</div>
+
+            <div class="block">
+                <div class="labels">NOME:</div>
+                <div class="inputs">
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+            </div>
+            <div class="block">
+                <div class="labels">CPF:</div>
+                <div class="inputs">
+                    <input type="text" name="cpf" id="cpf" required>
+                </div>
+            </div>
+            <div class="block">
+                <div class="labels">DATA DE NASCIMENTO:</div>
+                <div class="inputs">
+                    <input type="date" name="nascimento" id="nascimento" required>
+                </div>
+            </div>
+            <div class="block">
+                <div class="labels">ESTADO CÍVIL</div>
+                <div class="inputs">
+                    <select name="civil" id="civil" required>
+                        <option value=""></option>
+                        <option value="solteiro(a)">solteiro(a)</option>
+                        <option value="casado(a)">Casado(a)</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+                </div>
+            </div>
+            <div class="block">
+                <div class="labels">SEXO:</div>
+                <div class="inputs">
+                    <select name="sexo" id="sexo" required>
+                        <option value=""></option>
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="labels">DEFICIÊNCIA:</div>
+                <div class="inputs">
+                    <input type="text" name="deficiencia" id="deficiencia" placeholder="">
+                </div>
+            </div>
+            <div class="block">
+                <div class="labels">PROBLEMAS DE SAÚDE:</div>
+                <div class="inputs">
+                    <input type="text" name="saude" id="saude" placeholder="">
+                </div>
+            </div>
+            <div class="block">
+                <div class="labels">CONTATO:</div>
+                <div class="inputs">
+                    <input type="text" name="contato" id="contato" required>
+                </div>
+            </div>
+            <div class="block">
+                <div class="labels">EMAIL:</div>
+                <div class="inputs">
+                    <input type="email" name="email" id="email" required>
+                </div>
+            </div>
+
+            <div class="titulo">DADOS DO RESPÓNSAVEL</div>
+
+            <div class="block">
+                <div class="labels">NOME:</div>
+                <div class="inputs">
+                    <input type="text" name="nome_responsavel" id="nome_responsavel" required>
+                </div>
+            </div>
+            <div class="block">
+                <div class="labels">CPF:</div>
+                <div class="inputs">
+                    <input type="text" name="cpf_responsavel" id="cpf_responsavel" required>
+                </div>
+            </div>
+            <div class="block">
+                <div class="labels">PARENTESCO:</div>
+                <div class="inputs">
+                    <input type="text" name="parentesco_responsavel" id="parentesco_responsavel" required>
+                </div>
+            </div>
+            <div class="block">
+                <div class="labels">CONTATO:</div>
+                <div class="inputs">
+                    <input type="text" name="contato_responsavel" id="contato_responsavel" required>
+                </div>
+            </div>
+
+            <div class="titulo">DADOS RESIDÊNCIAIS</div>
+
+            <div class="block">
+                <div class="labels">ENDEREÇO:</div>
+                <div class="inputs">
+                    <input type="text" name="endereco" id="endereco" placeholder="">
+                </div>
+            </div>
+            <div class="block">
+                <div class="labels">NÚMERO:</div>
+                <div class="inputs">
+                    <input type="text" name="numero" id="numero" placeholder="">
+                </div>
+            </div>
+            <div class="block">
+                <div class="labels">BAIRRO:</div>
+                <div class="inputs">
+                    <input type="text" name="bairro" id="bairro" placeholder="">
+                </div>
+            </div>
+            <div class="block">
+                <div class="labels">MUNICÍPIO:</div>
+                <div class="inputs">
+                    <input type="text" name="municipio" id="municipio" placeholder="">
+                </div>
+            </div>
+            <div class="block">
+                <div class="labels">ESTADO:</div>
+                <div class="inputs">
+                    <select name="estado" id="estado" required>
+                        <option value=""></option>
+                        <option value="AC">AC</option>
+                        <option value="AL">AL</option>
+                        <option value="AP">AP</option>
+                        <option value="AM">AM</option>
+                        <option value="BA">BA</option>
+                        <option value="CE">CE</option>
+                        <option value="DF">DF</option>
+                        <option value="ES">ES</option>
+                        <option value="GO">GO</option>
+                        <option value="MA">MA</option>
+                        <option value="MT">MT</option>
+                        <option value="MS">MS</option>
+                        <option value="MG">MG</option>
+                        <option value="PA">PA</option>
+                        <option value="PB">PB</option>
+                        <option value="PR">PR</option>
+                        <option value="PE">PE</option>
+                        <option value="PI">PI</option>
+                        <option value="RJ">RJ</option>
+                        <option value="RN">RN</option>
+                        <option value="RS">RS</option>
+                        <option value="RO">RO</option>
+                        <option value="RR">RR</option>
+                        <option value="SC">SC</option>
+                        <option value="SP">SP</option>
+                        <option value="SE">SE</option>
+                        <option value="TO">TO</option>
+                    </select>
+                </div>
+            </div>
+            <div class="block">
+                <div class="labels">CEP:</div>
+                <div class="inputs">
+                    <input type="text" name="cep" id="cep" placeholder="">
+                </div>
+            </div>
+
+            <div class="titulo">INÍCIO DE TREINAMENTO</div>
+
+            <div class="block">
+                <div class="labels">DATA DE INÍCIO:</div>
+                <div class="inputs">
+                    <input type="date" name="data_incio" id="data_incio" placeholder="">
+                </div>
+            </div>
+            <div class="block">
+                <div class="labels">FAIXA:</div>
+                <div class="inputs">
+                    <input type="text" name="faixa_inicio" id="faixa_inicio" placeholder="">
+                </div>
+            </div>
+            <div class="block">
+                <div class="labels">GRAUS DA FAIXA:</div>
+                <div class="inputs">
+                    <input type="text" name="graus_inicio" id="graus_inicio" placeholder="">
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="inputs">
+                    <input class="btn-cadastrar" type="submit" value="CADASTRAR">
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-block">
+                <div class="footer-text">Criado e desenvolvido por Daniel de G. Carolino.© Todos os direitos reservados
+                    2024.
+                </div>
+                <div class="footer-text">
+                    <div class="footer-icones"><a class="whats"
+                            href="https://api.whatsapp.com/send/?phone=19996300297&text=Ol%C3%A1,%20gostaria%20de%20orcamento!&type=phone_number&app_absent=0"
+                            target="_blank"> <i class="footer-icones whats bi bi-whatsapp"></i>Whatsapp</a>
+                    </div>
+                    <div class="footer-icones linkdin">
+                        <a class="linkdin" href="https://www.linkedin.com/in/danielcarolino/" target="_blank">
+                            <i class="footer-icones linkdin bi bi-linkedin"></i>Linkdin
+                        </a>
+                    </div>
+                    <div class="footer-icones mail">
+                        <a class="mail" href="mailto:daniel.carolino@fatec.sp.gov.br" target="_blank">
+                            <i class="footer-icones mail bi bi-envelope-at"></i>Email
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
